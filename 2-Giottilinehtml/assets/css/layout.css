@@ -1,0 +1,144 @@
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+	.banner-image {height: 450px;}
+    
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	.banner-image {height: 350px;}
+    .inner-banner .banner-image{height: 250px;}
+    .banner-content h1{font-size:48px; line-height: 50px;}
+    .footer{padding: 40px 0;}
+    .footer-left ul{padding: 0 0 40px 0;}
+    .copyright{font-size: 14px;line-height: 16px;}
+    .footer-right ul {padding-left: 0;}
+    .footer-right ul li{margin: 0 0 20px 0;}
+    .footer-right ul li h6{font-size: 14px;line-height: 16px;}
+    .footer-right ul li p{font-size: 14px;line-height: 16px;}
+    .footer-right ul li a{font-size: 15px;top:-2px;}
+    .footer-right ul li i{font-size: 20px;}
+    .content-block-outer{padding: 30px 0 60px 0;}
+    .content-top{padding: 0 0 40px 0;}
+    .content-list-blk{padding: 0 60px 0 0;}
+    .content-top .col-md-4:first-child .content-list-blk{padding: 0 40px 0 20px;}
+    .blk-heading h6{font-size: 14px;}
+    .blk-heading h2{font-size: 28px;line-height: 34px;}
+    .blk-content p{margin: 0 0 20px 0;}
+    .primary-btn{font-size: 14px;height: 50px;line-height: 50px;padding: 0 20px;}
+    .image-blk{height: 160px;}
+    .title-blk{padding: 30px;}
+    .title-blk span{font-size: 20px;}
+    .split-content-blk{padding: 40px 0 0 0;}
+    .split-content h6{font-size: 14px;}
+    .split-content h2{font-size: 28px;line-height: 34px;}
+    .content-slider .banner-image{height: 400px;}
+    .dealer-content{padding: 0 0 40px 0; }
+    .dealer-content .split-content-blk img{bottom: 0;padding: 0;}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.banner-image {height: 300px;}
+    .inner-banner .banner-image{height: 250px;}
+    .logo{min-width: inherit; max-width: 130px;}
+    .menu ul li {font-size: 13px; line-height: 15px; margin-right: 20px;}    
+    .menu ul li a {padding: 4px 2px 8px;}
+    .contact {padding: 0 0 20px 2px;}
+    .social-media {padding: 33px 10px 0;}
+    .social-media ul li {font-size: 20px;margin:0 10px;}
+    .social-media ul li .fa-youtube {font-size: 24px;}
+    .banner-content h1{font-size:36px; line-height: 38px;}
+    .footer{padding: 40px 0;}
+    .footer-left ul{padding: 0 0 40px 0;}
+    .copyright{font-size: 14px;line-height: 16px;}
+    .footer-right{padding: 0 40px 0 0;}
+    .footer-right ul {padding-left: 0;}
+    .footer-right ul li{margin: 0 0 15px 0;}
+    .footer-right ul li h6{font-size: 14px;line-height: 16px;}
+    .footer-right ul li p{font-size: 14px;line-height: 16px;}
+    .footer-right ul li a{font-size: 15px;top:-2px;}
+    .footer-right ul li i{font-size: 20px;}
+    .content-block-outer{padding: 20px 0 40px 0;}
+    .content-top{padding: 0 0 40px 0;}
+    .content-list-blk{padding: 0 40px 0 0;}
+    .content-top .col-md-4:first-child .content-list-blk{padding: 0 20px 0 20px;}
+    .blk-heading h6{font-size: 14px;}
+    .blk-heading h2{font-size: 20px;line-height: 24px;padding: 0 0 10px 0;}
+    .blk-content p{margin: 0 0 20px 0;font-size: 14px;}
+    .primary-btn{font-size: 12px;height: 45px;line-height: 45px;padding: 0 15px;}
+    .image-blk{height: 140px;}
+    .title-blk{padding: 20px;}
+    .title-blk span{font-size: 16px;}
+    .split-content-blk{padding: 40px 0 0 0;}
+    .split-content{padding: 0 40px 0 0;}
+    .split-content h6{font-size: 14px;}
+    .split-content h2{font-size: 20px;line-height: 24px;padding: 0 0 10px 0;}
+    .split-content p{font-size: 14px;}
+    .content-slider .banner-image{height: 300px;}
+    .dealer-content{padding: 0 0 40px 0; }
+    .dealer-content .split-content-blk img{bottom: 0;padding: 0;}
+    .dealer-content .split-content{padding: 0;}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.banner-image {height: 200px;}
+    .inner-banner .banner-image{height: 200px;}
+    .menu-icon{display: block;}
+    .logo {min-width: inherit; width:100%; text-align: center; padding: 0  0 20px;}
+    .header-mid{text-align: center;}
+    .contact {padding: 0 0 60px;}
+    .header-mid{width:100%; padding: 0;}
+    .menu{margin:0;}
+    .menu ul{padding:10px 0 0;}
+    .menu ul li{margin: 0; display: block; text-align: center;}
+    .menu ul li a{display: block;padding:10px 0; border: none;}
+    .social-media{position: absolute;top: 123px;right: 0;padding: 40px 0px 0;}
+    .header-inner{padding:15px 0;}
+    .menu ul li a:hover{background:#878787; color: #FFF;}
+    .banner-content h1{font-size:32px; line-height: 34px;}
+    .footer{padding: 40px 0;}
+    .footer-left{padding: 0 0 20px 0;float: left;}
+    .footer-left ul{padding: 0 0 20px 0;display: table;margin: 0 auto;}
+    .copyright{width: 100%;text-align: center;font-size: 14px;line-height: 16px;}
+    .footer-right{padding: 0;}
+    .footer-right ul{padding: 0;text-align: center;}
+    .footer-right ul li{margin: 0 0 15px 0;}
+    .footer-right ul li h6{font-size: 14px;line-height: 16px;}
+    .footer-right ul li p{font-size: 14px;line-height: 16px;}
+    .footer-right ul li a{font-size: 15px;top:-2px;}
+    .footer-right ul li i{font-size: 20px;}
+    .content-block-outer{padding: 20px 0 40px 0;}
+    .content-top{padding: 0 0 20px 0;}
+    .content-list-blk{padding: 20px;border-bottom: 1px solid #dadada;border-right: 0;}
+    .content-top .col-md-4:first-child .content-list-blk{padding: 20px;}
+    .blk-heading h6{font-size: 14px;}
+    .blk-heading h2{font-size: 22px;line-height: 26px;padding: 0 0 10px 0;}
+    .blk-content p{margin: 0 0 20px 0;font-size: 14px;}
+    .primary-btn{font-size: 12px;height: 45px;line-height: 45px;padding: 0 15px;}
+    .vehicle-list-blk{margin: 0 0 20px 0;}
+    .content-btm .col-md-4:last-child .vehicle-list-blk{margin-bottom:0 }
+    .image-blk{height: 140px;}
+    .title-blk{padding: 20px;}
+    .title-blk span{font-size: 16px;}
+    .split-content-blk{padding: 40px 0 0 0;}
+    .split-img{height: 200px;}
+    .split-content{padding: 20px 0 0 0;}
+    .split-content h6{font-size: 14px;}
+    .split-content h2{font-size: 22px;line-height: 26px;padding: 0 0 10px 0;}
+    .split-content p{font-size: 14px;}
+    .content-slider .banner-image{height: 200px;}
+    .dealer-content{padding: 0; }
+    .dealer-content .split-content-blk img{position: inherit;bottom: auto;padding: 0;}
+    .dealer-content .split-content{padding: 0;margin: 0 0 20px 0;}
+    .dealer-content .split-content-blk .row .col-md-6:first-child{order: 1;}
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    .contact br{display: block;}
+    .contact a{margin:10px 0 0;display: inline-block;}
+    .menu-icon{top: 80px;}
+    .social-media {top: 154px;}
+}
+
