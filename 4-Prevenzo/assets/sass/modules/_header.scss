@@ -1,0 +1,212 @@
+// ***********************************
+// HEADER
+// ***********************************
+.header-outer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    @include transition(all 0.2s ease-in-out);
+    &.sticky{
+        background: $lighter;
+        @include box-shadow(0px, 5px, 15px, 0px, rgba(0, 0, 0, 0.2));
+        @media #{$mobile-landscape} { 
+            background:  $text-color; 
+            box-shadow: none;            
+        }
+    }
+    @media #{$mobile-landscape} { 
+        background:  $text-color; 
+        position: relative;
+    }
+}
+.header-inner{
+    @include flexbox;
+    @include justify-content(space-between);
+    padding:65px 0 30px;
+    @include transition(all 0.3s ease-in-out);
+    position: relative;
+    @media #{$tablet-landscape} { 
+        padding:40px 0 20px;
+    }
+    @media #{$tablet-portrait} { 
+        padding:30px 0 20px;
+    }
+    @media #{$mobile-landscape} { 
+        display: block;
+        padding:20px 0;
+    }
+}
+.menu{
+    @include flexbox;
+    @include align-items(center);
+    ul{
+        text-align: right;
+        padding:0 0 10px;
+        @media #{$mobile-landscape} { 
+            padding: 0 0 20px;
+            width: 100%;
+            text-align: center;
+        }
+        li{
+            display: inline-block;
+            font-family: $title-font;
+            font-size: $size-base;
+            line-height: $size-base;
+            color: $menu-color;
+            a{
+                color: $menu-color; 
+                display: block;
+                padding: 12px 28px;
+                border-radius: 25px;
+                &:hover{
+                    background: $link-color;
+                    color: $lighter;
+                }
+                @media #{$tablet-landscape} { 
+                    padding: 10px 25px;
+                }
+                @media #{$tablet-portrait} { 
+                    padding: 10px 25px;
+                }
+                @media #{$mobile-landscape} { 
+                    display: inline-block;
+                }
+            }
+            &.active a{
+                background: $link-color;
+                color: $lighter;
+            }
+            @media #{$tablet-portrait} { 
+                font-size: 14px;
+                line-height: 14px;
+            }
+            @media #{$mobile-landscape} { 
+                display: block;
+                padding: 10px 0 0;
+            }
+        }
+    }
+    @media #{$mobile-landscape} { 
+        display: none;
+        background: $text-color;        
+        position: relative;
+        top: 10px;
+    }
+}
+.slogo-icon{
+    display: none;
+}
+.logo{
+    img{
+        @include transition(all 0.3s ease-in-out);
+        width: 270px;
+        @media #{$tablet-landscape} { 
+            width: 240px;
+        }
+        @media #{$tablet-portrait} { 
+            width: 200px;
+        }
+        @media #{$mobile-landscape} { 
+            width: 200px;
+        }
+    }
+}
+.sticky{    
+    .header-inner{
+        padding: 20px 0;
+    }
+    
+    .menu ul{
+        padding: 0;
+        li a{
+            color: $text-color;
+        }
+    }
+    .menu-icon span{
+        background: $text-color;
+    }
+    @media #{$desktop-only} { 
+        .logo-icon{
+            display: none;
+        }
+        .slogo-icon{
+            display: block;
+        }
+    }
+    @media #{$mobile-landscape} { 
+        .menu ul{
+            padding: 0 0 20px;
+            li a{
+                color: $lighter;
+            }
+        }
+        .menu-icon span{
+            background: $lighter;
+        }
+    }
+}
+.menu-icon {
+    margin-left: 20px;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    @include rotate(0deg);
+    @include transition (all 300ms ease-in-out);
+    cursor: pointer;
+    display: none;
+    right: 0;
+    top: 30px;
+    span {
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background: $lighter;
+        border-radius: 0;
+        opacity: 1;
+        left: 0;
+        @include rotate(0deg);
+        @include transition (all 300ms ease-in-out);
+
+        &:nth-child(1) {
+            top: 0px;
+            @include transform-origin(left center);
+        }
+
+        &:nth-child(2) {
+            top: 12px;
+            @include transform-origin(left center);
+        }
+
+        &:nth-child(3) {
+            top: 24px;
+            @include transform-origin(left center);
+        }
+    }
+
+    &.open span:nth-child(1) {
+        @include rotate(45deg);
+        top: -3px;
+        left: 8px;
+    }
+
+    &.open span:nth-child(2) {
+        width: 0%;
+        opacity: 0;
+    }
+
+    &.open span:nth-child(3) {
+        @include rotate(-45deg);
+        top: 25px;
+        left: 8px;
+    }
+
+    @media #{$mobile-landscape} {
+        display: block;
+    }
+}
+ 
+
+

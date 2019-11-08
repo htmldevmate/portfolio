@@ -1,0 +1,62 @@
+// ***********************************
+// VARIABLES
+// ***********************************
+
+// Colors and Backgrounds
+// --------------------------
+
+$darker:                      #000000 !default;
+$lighter: 		              #ffffff !default;
+$text-color:                  #2a1a46;  
+$link-color:                  #aac90c;
+$background-color1:           #eff1f5;
+$menu-color:                  #b5aebe;
+
+    
+// Typography
+// -----------
+$main-font:     'CircularStdBook';
+$sub-font:      'CircularStdMedium'; 
+$title-font:    'CircularStdBold'; 
+    
+    
+$light:      300;
+$regular:    400;
+$medium:     500;
+$semibold:   600;
+$bold:       700;
+$extrabold:  800;
+$black:      900;
+
+
+$size-base:    		16px !default; 
+
+$size-h1:			ceil(($size-base * 2.625)) 		!default;   // ~42px
+$size-h2:			ceil(($size-base * 2.312))		!default;   // ~37px
+$size-h3:			ceil(($size-base * 2.00))		!default;   // ~32px
+$size-h4:			ceil(($size-base * 1.687)) 		!default;   // ~27px
+$size-h5:			ceil(($size-base * 1.5)) 		!default;   // ~24px
+$size-h6:			ceil(($size-base * 1.25)) 		!default;   // ~20px
+$size-medium:		ceil(($size-base * 1.125)) 		!default;   // ~18px
+$size-small:		ceil(($size-base * .875)) 		!default;   // ~14px
+
+$base-linehight:			    24px !default;
+$lineheight-h1:                 ceil(($size-base * 2.75)) 		    !default;   // ~44px
+$lineheight-h2:                 ceil(($size-base * 2.5)) 			!default;   // ~40px
+$lineheight-h3:                 ceil(($size-base * 2.125)) 			!default;   // ~34px
+$lineheight-h4:                 ceil(($size-base * 1.81)) 			!default;   // ~29px
+$lineheight-h5:                 ceil(($size-base * 1.625)) 			!default;   // ~26px
+$lineheight-h6:                 ceil(($size-base * 1.375)) 			!default;   // ~22px
+
+$text-size:                     ceil(($size-base * 1.31)) 			!default;   // ~21px
+$textline-height:               ceil(($size-base * 2.375)) 			!default;   // ~38px
+$textline-height1:              ceil(($size-base * 1.75)) 			!default;   // ~28px
+
+//== Media queries breakpoints
+$desktop-only:      "(min-width: 768px)";/*@media #{$desktop-only} {}*/
+$desktop:           "(min-width: 1280px) and (max-width: 1439px)";
+$tablet-landscape:  "(min-width: 1024px) and (max-width: 1279px)";  
+$tablet-portrait:   "(min-width: 768px) and (max-width: 1023px)";
+$mobile-landscape:  "only screen and (max-width : 767px)";
+$mobile-portrait:   "only screen and (max-width : 479px)"; 
+
