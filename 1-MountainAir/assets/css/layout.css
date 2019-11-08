@@ -1,0 +1,519 @@
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+	.menu-desc h2{font-size: 30px;line-height: 26px;}
+	.menu-desc{padding: 40px 35px 23px;}
+	.menu-desc-right .menu-desc h2{padding-right: 20px;}
+    .banner-image {height: 500px;}
+    .banner-text {font-size: 56px;line-height: 52px; padding: 25px 10% 25px 50px;}
+    .banner-btn {right: 8%; bottom: 35px; font-size: 28px; line-height: 28px; max-width: 270px;}
+    .banner-btn a {padding: 10px 30px;}
+    .banner-container{border-bottom-width: 14px;}
+    .intro-title{padding: 40px 50px 30px;}
+    .intro-title h2:after {right: -60px; width: 16px;}
+    .intro-text {padding: 40px 50px 30px;}
+    .intro-title h2 {font-size: 36px; line-height: 42px;}
+    .grid-image {height: 170px;}
+    .grid-text {font-size: 15px; line-height: 15px; padding: 10px 20px;}
+    .grid-text:after {border-width: 35px 0 0 40px;}
+    .testimonials-container{padding:20px 0 60px;}
+    .testimonials-outer {padding: 0 60px;margin: 0 -35px;}
+    .testimonials-block {padding: 0 35px;}
+    .testimonial {padding: 50px 35px 70px;}
+    .testimonial h5 {padding: 0 0 45px;}
+    .testimonial p {font-size: 20px; line-height: 26px;}
+    .content-header {padding: 50px 0 50px 60px;}
+	.content-header h2 {font-size: 34px;line-height: 40px;}
+	.cloud-left {margin-left: 20px;}
+	.weather-meta {padding-top: 30px;}
+	.widget-box h5 {font-size: 20px;}
+	.chair-lift-access h2 {font-size: 90px;line-height: 90px;}
+	.chair-lift-access .chairlift-close {padding-left: 20px;}
+	.chair-lift-access .chairlift-close:before {font-size: 90px;line-height: 90px;}
+	.chair-lift li {margin: 0 2px;}
+	.chair-lift li a {font-size: 11px;padding: 2px 5px;min-width: 90px;}
+	.snow-report h6 {font-size: 100px;}
+	.content-widget {padding: 50px 20px 50px 60px;}
+	.content-widget .intro-title ul {font-size: 28px;line-height: 30px;}
+	.content-widget h2 {font-size: 52px;line-height: 56px;}
+    .title-content{padding: 50px 50px 35px 50px;}
+    .title-content p{font-size: 20px;line-height: 22px;}
+    .equipment-text{padding: 20px 0 0 0;}
+    .equipment-text h2{font-size: 32px;line-height: 34px;}
+    .equipment-text p{font-size: 20px;line-height: 24px;}
+    .equipment-logo{padding: 0 0 20px 0;}
+    .equipment-logo img{width: 150px;}
+    .equipment-img{width: 100%;}
+    .category-item{padding: 60px 40px;}
+    .category-item h3{font-size: 30px;line-height: 36px;padding: 0 0 40px 0;}
+    .category-item span{font-size: 20px;line-height: 22px;padding: 0 0 60px 0;}
+    .category-item p{font-size: 18px;line-height: 28px;}
+    .button-block .chair-lift li{margin: 0 40px 0 0;}
+    .button-block .chair-lift li a{font-size: 20px;line-height: 24px;min-width: 200px;}
+    .service-item{padding: 40px 20px;}
+    .service-item h2{font-size: 32px;line-height: 34px;padding: 60px 0 40px 0;}
+    .service-item p{font-size: 20px;line-height: 24px;}
+    .hallow-btn{font-size: 20px;line-height: 24px;min-width: 200px;}   
+	.footer{margin: 60px 0 0;}
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1599px) {
+	.logo{padding-left: 50px;}
+	.beak,.life-style{font-size: 14px;}
+	.menu{width: 59%;}
+	.menu .home a {padding: 28px 25px 32px;}
+	.menu > ul > li {padding: 0 20px;}
+	.menu-desc h2{font-size: 24px;line-height: 22px;padding-bottom: 10px;margin-bottom: 8px;letter-spacing: 1px;}
+	.menu-desc{padding: 20px 20px 15px;}
+	.menu-desc-right .menu-desc h2{padding-right: 20px;}
+    .banner-image {height: 400px;}
+    .banner-text {font-size: 48px;line-height: 42px; padding: 20px 10% 20px 40px;}    
+    .banner-btn {right: 6%; bottom: 30px; font-size: 24px; line-height: 24px; max-width: 250px;}
+    .banner-btn a {padding: 10px 30px;}
+    .banner-btn a:after {right: 20px;}
+    .banner-container{border-bottom-width: 12px;}
+    .intro-title{padding: 40px 40px 30px;}
+    .intro-title h2:after {right: -50px; width: 14px;}
+    .intro-text {padding: 40px 40px 30px;}
+    .intro-title h2 {font-size: 32px; line-height: 34px;}
+    .banner-label {font-size: 14px; line-height: 16px; padding: 12px 40px;}
+    .grid-image {height: 160px;}
+    .grid-text {font-size: 14px; line-height: 14px; padding: 10px 20px;}
+    .grid-text:after {border-width: 34px 0 0 40px;}
+    .footer-links ul li{font-size:14px; line-height: 16px;}
+    .footer-links {padding: 30px 0 15px;}
+    .testimonials-container{padding:10px 0 60px;}
+    .testimonials-outer {padding: 0 50px;margin: 0 -30px;}
+    .testimonials-block {padding: 0 30px;}
+    .testimonial {padding: 40px 30px 60px;}
+    .testimonial h5 {padding: 0 0 40px;}
+    .testimonial p {font-size: 16px; line-height: 20px;}
+    .content-header {padding: 40px 0 40px 50px;}
+	.content-header h2 {font-size: 30px;line-height: 36px;}
+	.cloud-left {margin-left: 20px;}
+	.weather-meta {padding-top: 30px;}
+	.cloud-right span {font-size: 14px;}
+	.webcam-header h6 {font-size: 13px;}
+	.webcam-header .time {font-size: 13px;}
+	.widget-box h5 {font-size: 20px;padding: 30px 40px 0 30px;}
+	.chair-lift-access h2 {font-size: 70px;line-height: 70px;}
+	.chair-lift-access .chairlift-close {padding-left: 10px;}
+	.chair-lift-access .chairlift-close:before {font-size: 70px;line-height: 70px;}
+	.chair-lift li {margin: 0 2px;}
+	.chair-lift li a {font-size: 10px;padding: 2px 5px;min-width: 75px;}
+	.snow-report h6 {font-size: 80px;}
+	.cloud-left img {width: 80px;}
+	.webcam-header {padding: 14px 14px 14px;}
+	.snow-report {padding: 30px 0 0 0;}
+	.snow-report sub {left: -15px;}
+	.content-widget h2 {font-size: 42px;line-height: 48px;}
+	.content-widget {padding: 50px 20px 50px 60px;}
+	.content-widget .intro-title ul {font-size: 21px;line-height: 26px;padding-left: 45px;}
+	.content-widget .intro-title ul:after {width: 20px;}
+	.footer-widget.time p {font-size: 20px;line-height: 26px;}
+	.footer-widget.phone p a {font-size: 20px;}
+	.footer-widget.location p {font-size: 18px;line-height: 22px;}
+	.footer-widget.url a {font-size: 16px;line-height: 18px;}
+    .title-content{padding: 40px 40px 25px 40px;}
+    .title-content p{font-size: 20px;line-height: 22px;}
+    .title-logo{padding: 0 0 40px 0;}
+    .equipment-text{padding: 20px 0 0 0;}
+    .equipment-text h2{font-size: 30px;line-height: 32px;padding: 0 0 20px 0;}
+    .equipment-text p{font-size: 18px;line-height: 24px;}
+    .equipment-logo{padding: 0 0 20px 0;}
+    .equipment-logo img{width: 120px;}
+    .equipment-img{width: 100%;}
+    .equipment-img:before{height: 20px;}
+    .category-item{padding: 40px 30px;}
+    .category-item h3{font-size: 28px;line-height: 30px;padding: 0 0 40px 0;}
+    .category-item span{font-size: 18px;line-height: 20px;padding: 0 0 60px 0;}
+    .category-item p{font-size: 16px;line-height: 24px;}
+    .button-block .chair-lift li{margin: 0 40px 0 0;}
+    .button-block .chair-lift li a{font-size: 18px;line-height: 20px;min-width: 170px;}
+     .button-block .banner-btn{font-size: 22px;line-height: 24px;}
+    .service-item{padding: 40px 20px;}
+    .service-item h2{font-size: 30px;line-height: 32px;padding: 40px 0;}
+    .service-item p{font-size: 18px;line-height: 24px;}
+    .hallow-btn{font-size: 18px;line-height: 20px;min-width: 170px;}
+    .item-one .service-icon {max-width: 100px;height: 100px;}
+    .item-two .service-icon {max-width: 100px;height: 100px;}
+    .item-three .service-icon {max-width: 100px;height: 100px;}
+	.footer{margin: 40px 0 0;}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	.logo{padding:12px 0 8px 30px;width: 190px;}
+	.logo img{width: 130px;}
+	.header-bottom-right{width: 190px;padding-left: 30px;}
+	.menu{width: 62%;}
+	.menu .home a {padding: 23px 15px;}
+	.menu > ul > li {padding: 0 10px;}
+	.menu ul li a{font-size: 14px;line-height: 16px;padding: 24px 0;}
+	.beak{min-width: 140px;font-size: 12px;}
+	.life-style{min-width: 160px;font-size: 12px;}
+	.search{width: 64px;height: 64px;line-height: 64px;}
+	.user-account .user{width: 32px;height: 32px;line-height: 32px;}
+	.user-account .favourite{width: 32px;height: 32px;line-height: 32px;}
+	.cart{width: 64px;height: 64px;line-height: 64px;}
+	.user-account{width: 32px;}
+	.search img{width: 25px;}
+	.user-account .user img{width: 16px;}
+	.user-account .favourite img{width: 16px;}
+	.cart img{width: 27px;}
+	.menu-desc h2{font-size: 20px;line-height: 18px;padding-bottom: 10px;margin-bottom: 8px;letter-spacing: 1px;}
+	.menu-desc{padding:15px;}
+	.menu-desc-right .menu-desc h2{padding-right: 20px;}
+    .banner-image {height: 350px;}
+    .banner-text {font-size: 32px;line-height: 30px; padding: 20px 10% 20px 30px;}
+    .banner-btn {right: 6%; bottom: 25px; font-size: 16px; line-height: 18px; max-width: 200px;}
+    .banner-btn a {padding: 10px 25px;}
+    .banner-container{border-bottom-width: 10px;}
+    .banner-btn a:after {right: 15px;background-size: 10px;}
+    .intro-title{padding: 30px 30px;}
+    .intro-title h2:after {right: -38px; width: 10px;}
+    .intro-text {padding: 30px 30px;}
+    .intro-title h2 {font-size: 28px; line-height: 30px;}
+    .banner-label {font-size: 12px; line-height: 14px; padding: 10px 30px;}
+    .grid-image {height: 140px;}
+    .grid-text {font-size: 14px; line-height: 14px; padding: 10px 20px;}
+    .grid-text:after {border-width: 34px 0 0 30px;}
+    .footer-links ul li{font-size:12px; line-height: 14px; padding: 0 0 10px;}
+    .footer-links {width: 90%;padding: 20px 0 10px;}
+    .testimonials-container{padding:10px 0 40px;}
+    .testimonials-outer {padding: 0 30px;margin: 0 -15px;}
+    .testimonials-block {padding: 0 15px;}
+    .testimonial {padding: 30px 20px 40px;}
+    .testimonial h5 {padding: 0 0 30px;}
+    .testimonial p {font-size: 14px; line-height: 18px;}
+    .content-header {padding: 30px 0 30px 30px;}
+	.content-header h2 {font-size: 24px;line-height: 32px;}
+	.cloud-left {margin-left: 0px;}
+	.weather-meta {padding-top: 30px;}
+	.widget-box h5 {font-size: 16px;padding: 25px 20px 0 20px;}
+	.chair-lift-access h2 {font-size: 60px;line-height: 60px;}
+	.chair-lift-access .chairlift-close {padding-left: 10px;}
+	.chair-lift-access .chairlift-close:before {font-size: 60px;line-height: 60px;}
+	.chair-lift li {margin: 0 2px;}
+	.chair-lift li a {font-size: 10px;padding: 2px 5px;min-width: 75px;}
+	.snow-report h6 {font-size: 70px;line-height: 100px;}
+	.cloud-left img {width: 70px;}
+	.webcam-header {padding: 14px 14px 14px;}
+	.snow-report {padding: 30px 0 0 0;}
+	.snow-report sub {left: -15px;font-size: 50px;line-height: 50px;}
+	.cloud-right span {font-size: 12px;line-height: 14px;}
+	.chair-lift {-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+	.chair-lift li {width: 42%;margin: 5px 5px;}
+	.days {padding: 0 10px;}
+	.days li h6 {font-size: 12px;}
+	.weather-type span {min-width: 220px;}
+	.chair-lift-access span {font-size: 14px;}
+	.webcam-header h6 {width: 60%;font-size: 12px;}
+	.webcam-header .time {font-size: 12px;}
+	.snow-report p {padding-bottom: 20px;}
+	.content-widget h2 {font-size: 38px;line-height: 42px;}
+	.content-widget {padding: 40px 20px 30px 40px;}
+	.content-widget .intro-title ul {font-size: 18px;line-height: 26px;padding-left: 50px;}
+	.content-widget .intro-title ul:after {width: 20px;}
+	.footer-widget.time p {font-size: 18px;line-height: 24px;}
+	.footer-widget.phone p a {font-size: 18px;}
+	.footer-widget.location p {font-size: 16px;line-height: 20px;}
+	.footer-widget.url a {font-size: 14px;line-height: 16px;padding: 10px 22px;}
+    .title-content{padding: 40px 40px 20px 40px;}
+    .title-content p{font-size: 16px;line-height: 18px;padding: 0 0 20px 0;}
+    .title-logo{padding: 0 0 40px 0;}
+    .equipment-block{padding: 40px 0 20px 0;}
+    .equipment-title-block{padding: 0 0 40px 0;}
+    .equipment-text{padding: 20px 0 0 0;}
+    .equipment-text h2{font-size: 26px;line-height: 28px;padding: 0 0 20px 0;}
+    .equipment-text p{font-size: 16px;line-height: 20px;}
+    .equipment-logo{padding: 0 0 20px 0;}
+    .equipment-logo img{width: 100px;}
+    .equipment-img{width: 100%;}
+    .equipment-img:before{height: 15px;}
+    .category-item{padding: 40px 30px;width: 100%;}
+    .category-item h3{font-size: 24px;line-height: 26px;padding: 0 0 20px 0;}
+    .category-item span{font-size: 16px;line-height:18px;padding: 0 0 40px 0;}
+    .category-item p{font-size: 14px;line-height: 22px;}
+    .button-block .chair-lift li{margin: 0 30px 0 0;width: auto;}
+    .button-block .chair-lift li a{font-size: 14px;line-height: 16px;min-width: 130px;}
+    .service-item{padding: 0 20px;width: 100%;}
+    .service-item h2{font-size: 26px;line-height: 28px;padding: 30px 0;}
+    .service-item p{font-size: 16px;line-height: 20px;}
+    .hallow-btn{font-size: 14px;line-height: 16px;min-width: 120px;}
+    .item-one .service-icon {max-width: 80px;height: 80px;}
+    .item-two .service-icon {max-width: 80px;height: 80px;}
+    .item-three .service-icon {max-width: 80px;height: 80px;}
+    .innerpage .banner-image{height: 300px;}
+	.footer{margin: 40px 0 0;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.logo{padding:10px 0 8px 15px;width: 165px;}
+	.logo img{width: 130px;}
+	.header-bottom-right{width: 165px;padding-left:15px;}
+	.menu{width: 57%;}
+	.menu .home a {padding: 22px 10px 21px;}
+	.menu > ul > li {padding: 0 6px;}
+	.menu ul li a{font-size: 12px;line-height: 14px;padding: 23px 0;letter-spacing: 0px;}
+	.beak{min-width: 130px;font-size: 12px;}
+	.life-style{min-width: 150px;font-size: 12px;}
+	.search{width: 60px;height: 60px;line-height: 60px;}
+	.search-box.active{-ms-transform: translateX(-400px);-webkit-transform: translateX(-400px);transform: translateX(-400px);}
+	.user-account .user{width: 30px;height: 30px;line-height: 30px;}
+	.user-account .favourite{width: 30px;height: 30px;line-height: 30px;}
+	.cart{width: 60px;height: 60px;line-height: 60px;}
+	.user-account{width: 30px;}
+	.search img{width: 22px;}
+	.user-account .user img{width: 16px;}
+	.user-account .favourite img{width: 16px;}
+	.cart img{width: 24px;}
+	.menu-desc h2{font-size: 14px;line-height: 14px;padding-bottom: 10px;margin-bottom: 8px;letter-spacing: .5px;}
+	.menu-desc{padding:15px 10px;}
+	.menu-desc-right .menu-desc h2{padding-right: 20px;}
+    .banner-image {height: 300px;}
+    .banner-text {font-size: 28px;line-height: 30px; padding: 20px 10% 20px 30px;}
+    .banner-btn {right: 6%; bottom: 20px; font-size: 14px; line-height: 16px; max-width: 170px;}
+    .banner-btn a {padding: 10px 25px;}
+    .banner-container{border-bottom-width: 8px;}
+    .banner-btn a:after {right: 10px;background-size: 8px;}
+    .intro-title{padding: 30px 30px;}
+    .intro-title h2:after {right: -37px; width: 8px;}
+    .intro-text {padding: 30px 30px;}
+    .intro-title h2 {font-size: 20px; line-height: 24px;}
+    .banner-label {font-size: 12px; line-height: 14px; padding: 10px 30px;}
+    .grid-image {height: 110px;}
+    .grid-text {font-size: 11px; line-height: 11px; padding: 8px 15px; max-width: 75%;}
+    .grid-text:after {border-width: 27px 0 0 20px;}
+    .footer-links ul li{font-size:12px; line-height: 14px; padding: 0 0 10px;}
+    .footer-links {width: 90%;padding: 20px 0 10px;}
+    .testimonials-container{padding:10px 0 40px;}
+    .testimonials-outer {padding: 0 30px;margin: 0 -15px;}
+    .testimonials-block {padding: 0 15px;}
+    .testimonial {padding: 30px 20px 40px;}
+    .testimonial h5 {padding: 0 0 20px; font-size: 20px; line-height: 22px;}
+    .testimonial p {font-size: 12px; line-height: 16px;}
+    .content-header {padding: 30px 0 30px 30px;}
+	.content-header h2 {font-size: 24px;line-height: 32px;}
+	.cloud-left {margin-left: 0px;width: 32%;}
+	.weather-meta {padding-top: 30px;}
+	.widget-box h5 {font-size: 11px;padding: 25px 20px 0 20px;}
+	.chair-lift-access h2 {font-size: 50px;line-height: 52px;}
+	.chair-lift-access .chairlift-close {padding-left: 10px;}
+	.chair-lift-access .chairlift-close:before {font-size: 50px;line-height: 52px;}
+	.chair-lift li {margin: 0 2px;}
+	.chair-lift li a {font-size: 10px;padding: 2px 5px;min-width: 75px;}
+	.snow-report h6 {font-size: 60px;line-height: 90px;}
+	.cloud-left img {width: 42px;}
+	.webcam-header {padding: 14px 14px 14px;}
+	.snow-report {padding: 30px 0 0 0;}
+	.snow-report sub {left: -15px;font-size: 50px;line-height: 50px;}
+	.cloud-right span {font-size: 9px;line-height: 10px;}
+	.chair-lift {-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap; flex-wrap: wrap;}
+	.chair-lift li {width: 42%;margin: 5px 5px;}
+	.days {padding: 0 10px;}
+	.days li h6 {font-size: 9px;}
+	.weather-type span {min-width: 160px;font-size: 14px;line-height: 16px;}
+	.chair-lift-access span {font-size: 10px;}
+	.webcam-header h6 {width: 60%;font-size: 9px;}
+	.webcam-header .time {font-size: 12px;}
+	.snow-report p {padding-bottom: 20px;font-size: 14px;}
+	.content-widget h2 {font-size: 34px;line-height: 38px;}
+	.content-widget {padding: 30px 20px 30px 40px;}
+	.content-widget .intro-title ul {font-size: 16px;line-height: 22px;padding-left: 40px;}
+	.content-widget .intro-title ul:after {width: 15px;}
+	.footer-widget.time p {font-size: 16px;line-height: 22px;}
+	.footer-widget.phone p a {font-size: 16px;}
+	.footer-widget.location p {font-size: 16px;line-height: 20px;}
+	.footer-widget.url a {font-size: 12px;line-height: 14px;padding: 10px 20px;}
+    .title-content{padding: 30px 30px 10px 30px;}
+    .title-content p{font-size: 14px;line-height: 16px;padding: 0 0 20px 0;}
+    .title-logo{padding: 0 0 30px 0;}
+    .equipment-block{padding: 40px 0 20px 0;}
+    .equipment-title-block{padding: 0 0 20px 0;}
+    .equipment-text{padding: 10px 0 0 0;}
+    .equipment-text h2{font-size: 24px;line-height: 26px;padding: 0 0 20px 0;}
+    .equipment-text p{font-size: 14px;line-height: 18px;}
+    .equipment-logo{padding: 0 0 20px 0;}
+    .equipment-logo img{width: 80px;}
+    .equipment-img{width: 100%;}
+    .equipment-img:before{height: 15px;}
+    .category-item{padding: 40px 20px;width: 100%;}
+    .category-item h3{font-size: 20px;line-height: 22px;padding: 0 0 20px 0;}
+    .category-item span{font-size: 16px;line-height:18px;padding: 0 0 40px 0;}
+    .category-item p{font-size: 14px;line-height: 22px;}
+    .button-block .chair-lift li{margin: 0 20px 0 0;width: auto;}
+    .button-block .chair-lift li a{font-size: 12px;line-height: 12px;min-width: 120px;}
+    .service-item{padding: 0 10px;width: 100%;}
+    .service-item h2{font-size: 24px;line-height: 26px;padding: 20px 0;}
+    .service-item p{font-size: 14px;line-height: 18px;}
+    .hallow-btn{font-size: 12px;line-height: 12px;min-width: 120px;}
+    .item-one .service-icon {max-width: 80px;height: 80px;}
+    .item-two .service-icon {max-width: 80px;height: 80px;}
+    .item-three .service-icon {max-width: 80px;height: 80px;} 
+    .innerpage .banner-image{height: 300px;}
+	.footer{margin: 30px 0 0;}
+}
+
+@media only screen and (max-width: 767px) {
+	.mobile-only{display: block;}
+	.header-bottom-in{-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+	.logo{width: 100%;text-align: center;padding: 0;}
+	.menu{display: none;width: 100%;position: absolute;top: 0;background: #000;z-index: 9;height: 100vh;overflow: scroll;}
+	.header-bottom-right{position: absolute;top: 17px;right: 15px;padding: 0;width: auto;}
+	.user-account,.cart{display: none;}
+	.search{background: none;width: 50px;height: 50px;line-height: 50px;}
+	.search-box{left: 50px;}
+	.search-box input{padding-right: 45px;}
+	.search-box.active{width: 350px; -ms-transform: translateX(-350px);-webkit-transform: translateX(-350px);transform: translateX(-350px);}
+	.search img{25px;}
+	.menu-icon{display: block;}
+	.header-top{display: none;}
+	.header-bottom-in{position: relative;padding: 20px 0;}
+	.menu > ul{	-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;}
+	.home{display: none;}
+	.menu ul li a{color: #FFF;padding: 20px 0;font-weight: 800;font-size: 18px;line-height: 20px;}
+	.menu ul li a:hover{color: #009ddb;}
+	.menu > ul{padding: 60px 0 0;}
+	.menu ul li a:before{display: none;}
+	.menu > ul > li{padding: 0 30px;}
+	.close{display: block;}
+	.menu .banner-btn{display: block;position: relative;bottom: 0;right: 0;margin: 20px 0;max-width: 230px;}
+	.menu .banner-btn a{padding: 20px;}
+	.menu .banner-btn a:hover{color: #FFF;}
+	.menu .banner-btn a::after{display: none;}
+	.user-mob-block{display: block;}
+	.user-mob-block ul li{padding: 0 30px;}
+	.has-sub{display: block;}
+	.menu .back{display: block;}
+	.menu-description-outer{-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;height:100vh;}
+	.menu-desc-left{width: 100%;}
+	.menu-desc-right{width: 100%;}
+	.menu-desc{width: 100%;padding: 15px 30px;border: 0;}
+	.menu-desc P{display: none;}
+	.menu-desc h2{font-size: 16px;line-height: 18px;color: #FFF;padding: 0;margin: 0;}
+	.menu-desc h2:before{display: none;}
+	.submenu > ul{top:0;right: -100%;left: auto;}
+	.submenu.active > ul{right:0;}
+	.submenu > ul > li{background: #000;padding: 60px 0;-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;}
+	.submenu > ul > li > h2{display: block;color: #FFF;padding: 40px 30px 30px;}
+    .banner-image {height: 300px;}
+    .banner-text {width: 100%;font-size: 32px;line-height: 30px; padding: 20px 30px;}
+    .image2{display: none;}
+    .banner-btn{display: none;}
+    .banner-container{border-bottom-width: 0;}
+    .intro-container .col-md-6{order: 1;}
+    .intro-container .col-md-6:first-child{order: 2;}
+    .intro-text {padding: 40px 30px 30px;}
+    .intro-title {padding: 40px 30px;}
+    .intro-title h2:after {right: inherit; top: -50px; width: 50%; height: 20px; left: 0;}
+    .intro-title h2 {font-size: 28px; line-height: 30px;}
+    .banner-label {display: none;}
+    .grid-box{margin:0 0 20px;}
+    .grid-text {padding: 12px 30px;}
+    .footer-links {width: 100%; padding: 30px 30px 15px;}
+    .footer-links ul li{text-align: center; width: 50%;font-size:14px; line-height: 16px;}
+    .testimonials-container{padding:10px 0 20px;}
+    .testimonials-outer {padding: 0 30px;margin: 0; display: block;}
+    .testimonials-block {padding: 0; width: 100%; margin:0 0 20px;}
+    .testimonial {padding: 30px 20px 40px;text-align: center;}
+    .testimonial h5 {padding: 0 0 30px;}
+    .testimonial p {font-size: 14px; line-height: 18px;}
+    .content-header {padding: 30px 0 30px 30px;}
+	.content-header h2 {font-size: 24px;line-height: 32px;}
+	.cloud-left {margin-left: 0px;}
+	.weather-meta {padding-top: 30px;}
+	.widget-box h5 {font-size: 16px;padding: 25px 20px 0 20px;}
+	.chair-lift-access h2 {font-size: 60px;line-height: 60px;}
+	.chair-lift-access .chairlift-close {padding-left: 10px;}
+	.chair-lift-access .chairlift-close:before {font-size: 60px;line-height: 60px;}
+	.chair-lift li {margin: 0 2px;}
+	.chair-lift li a {font-size: 10px;padding: 2px 5px;min-width: 75px;}
+	.snow-report h6 {font-size: 70px;line-height: 100px;}
+	.cloud-left img {width: 70px;}
+	.webcam-header {padding: 14px 14px 14px;}
+	.snow-report {padding: 30px 0 0 0;}
+	.snow-report sub {left: -15px;font-size: 50px;line-height: 50px;}
+	.cloud-right span {font-size: 12px;line-height: 14px;}
+	.days {padding: 0 10px;}
+	.days li h6 {font-size: 12px;}
+	.weather-type span {min-width: 220px;}
+	.chair-lift-access span {font-size: 14px;}
+	.webcam-header h6 {width: 60%;font-size: 12px;}
+	.webcam-header .time {font-size: 12px;}
+	.snow-report p {padding-bottom: 20px;}
+	.block-three-sec .row .col-md-8 {order: 2;}
+	.block-three-sec .row .col-md-4 {order: 1;}
+	.content-block-three iframe {height: 250px;}
+	.content-widget {padding: 30px 30px;border-right: 0px;}
+	.content-widget .intro-title h2:after {width: 100%;top: 0px;}
+	.content-widget .intro-title h2 {padding:50px 0 0 0px;}
+	.content-widget h2 {font-size: 40px;line-height: 50px;}
+	.content-widget .intro-title {margin-top: 15px;}
+	.content-widget .intro-title ul {font-size: 16px;line-height: 22px;padding:50px 0 0 0px;}
+	.content-widget .intro-title ul:after {width: 100%;height: 15px;}
+	.content-widget .intro-title ul li {padding: 10px 0;}
+	.footer-widget-outer {background: #ffffff;}
+	.footer-widget.url {display: none;}
+	.footer-widget.phone .widget-icon {margin-bottom: 30px;}
+	.footer-widget.location .widget-icon {margin-bottom: 13px;}
+	.footer-widget-outer {padding: 10px 0 32px;}
+	.content-block-two .content-header {padding-top: 10px;}
+    .title-content{padding: 20px;}
+    .title-content p{font-size: 14px;line-height: 16px;padding: 0 0 20px 0;}
+    .title-logo{padding: 0 0 30px 0;}
+    .title-img{min-height: 150px;}
+    .equipment-block{padding: 40px 0 20px 0;}
+    .equipment-title-block{padding: 0 0 20px 0;}
+    .equipment-text{padding: 0;}
+    .equipment-text h2{font-size: 24px;line-height: 26px;padding: 0 0 20px 0;text-align: center;}
+    .equipment-text p{font-size: 14px;line-height: 18px;}
+    .equipment-logo{padding: 0 0 20px 0;text-align: center;}
+    .equipment-logo img{width: 80px;}
+    .equipment-img{width: 100%;height: 250px;}
+    .equipment-img:before{height: 10px;}
+    .category-item{padding: 40px 20px;width: 100%;margin: 0 0 20px 0;}
+    .category-item h3{font-size: 20px;line-height: 22px;padding: 0 0 20px 0;}
+    .category-item span{font-size: 16px;line-height:18px;padding: 0 0 20px 0;}
+    .category-item p{font-size: 14px;line-height: 22px;}
+    .button-block{padding: 0;display: block;}
+    .button-block .chair-lift{display: block;width: 100%;float: left;}
+    .button-block .chair-lift li{margin: 0 0 10px 0;width: auto;display: block;}
+    .button-block .chair-lift li a{font-size: 12px;line-height: 12px;min-width: auto;width: 100%;}
+    .button-block .banner-btn{display: inline-block;font-size: 16px;line-height: 20px;max-width: inherit;width: 100%;}
+    .banner-btn a:after{background-size: 75%;}
+    .service-category-block{padding: 20px 0;}
+    .service-item{padding: 20px;width: 100%;}
+    .service-item h2{font-size: 24px;line-height: 26px;padding: 20px 0;}
+    .service-item p{font-size: 14px;line-height: 18px;}
+    .hallow-btn{font-size: 12px;line-height: 12px;min-width: 120px;}
+    .item-one .service-icon {max-width: 60px;height: 60px;}
+    .item-two .service-icon {max-width: 60px;height: 60px;}
+    .item-three .service-icon {max-width: 60px;height: 60px;}
+    .innerpage .banner-image{height: 250px;}
+	.footer{margin: 30px 0 0;}
+    .main-outer{overflow: hidden;}
+}
+
+@media only screen and (max-width: 479px) {
+	.search-box{left: 30px;}
+	.search-box input{padding-right: 35px;padding-left: 35px;}
+	.search-box.active{width: 250px; -ms-transform: translateX(-250px);-webkit-transform: translateX(-250px);transform: translateX(-250px);}
+	.search-close{width: 15px;height: 15px;}
+	.banner-text {font-size: 24px;line-height: 24px; padding: 20px;}
+    .intro-text {padding: 30px 20px 30px;}
+    .intro-title {padding: 40px 20px;}
+    .intro-title h2:after {height: 15px;}
+    .grid-text {padding: 12px 20px;}
+    .grid-image {height: 150px;}
+    .footer-links {padding: 30px 20px 15px;}
+    .testimonials-outer {padding: 0 20px;}
+    .testimonial h5 {padding: 0 0 20px; font-size: 20px; line-height: 22px;}
+    .content-widget .intro-title ul {padding-top: 30px;}
+    .content-header{padding: 30px 0 30px 20px;}
+    .title-img{min-height: 100px;}
+    .equipment-img{height: 200px;}
+	.logo img{width: 130px;}
+	.menu-icon{top: 32px;}
+	.search{width: 30px;height: 30px;line-height: 30px;}
+	.search img{width: 20px;}
+	.header-bottom-right{top: 26px;}
+}
+
