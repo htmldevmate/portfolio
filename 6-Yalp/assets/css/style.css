@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'camptonSemibold';
+    src: url('../fonts/camptonSemibold/camptonSemibold.eot');
+    src: url('../fonts/camptonSemibold/camptonSemibold.eot') format('embedded-opentype'),
+         url('../fonts/camptonSemibold/camptonSemibold.woff2') format('woff2'),
+         url('../fonts/camptonSemibold/camptonSemibold.woff') format('woff'),
+         url('../fonts/camptonSemibold/camptonSemibold.ttf') format('truetype'),
+         url('../fonts/camptonSemibold/camptonSemibold.svg#camptonSemibold') format('svg');
+}
+body {
+    font-family: 'camptonSemibold';	
+    background: url("../images/bg.jpg") no-repeat center top;
+    background-size: cover;
+    text-align: center;
+    margin: 0px;
+	padding: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-style: normal;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	list-style-image: none;
+	list-style-type: none;
+}
+ul li {
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	list-style-image: none;
+	list-style-type: none;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+	outline: 0px none !important;
+}
+a{
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+img, a img {
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: none 0;
+	outline: 0px none !important;
+}
+input:focus, textarea:focus, a:focus {
+	outline: 0px none !important;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.block {
+	color: #FFF;
+	text-align: center;
+	height: 30px;
+	margin: 5px 0;
+	background: #030;
+}
+
+.logo-outer {
+    text-align: center;
+    padding: 105px 0;
+}
+
+.country ul li{
+    display: inline-block;
+    vertical-align: top;
+}
+.country ul li a{
+    display: block;
+}
+.country ul li img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.country ul li span{
+    display: inline-block;
+    vertical-align: middle;
+    padding:0 30px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #706f6f;
+    text-transform: uppercase;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+.country ul li:hover span,
+.country ul li:focus span{
+    color: #f9b620;
+}
+.menu{
+    padding:50px 0;
+}
+.menu ul li{
+    display: inline-block;
+    vertical-align: middle;
+    padding:0 50px 0 25px;
+    background: url("../images/arrow.png") no-repeat left center;
+    font-size: 16px;
+    line-height: 18px;
+    color: #706f6f;
+}
+.menu ul li a{
+    color: #706f6f;
+}
+.menu ul li a:hover,
+.menu ul li a:focus{
+    color: #f9b620;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+	.logo-outer {padding: 60px 0;}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    body{background-size:100% 100%; background-position: center bottom;}
+    .main-outer{min-height: 600px;}
+	.logo-outer {padding: 50px 0;}
+    .menu{padding:30px 0;}
+    .country ul li span{padding:0 20px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body{background-size:100% 100%; background-position: center bottom;}
+    .main-outer{min-height: 600px;}
+	.logo-outer {padding: 50px 0;}
+    .menu{padding:30px 0;}
+    .country ul li span{padding:0 20px;}
+}
+
+@media only screen and (max-width: 767px) {
+    body{background-size:100%; background-position: center bottom;}
+    .main-outer{min-height: 650px;}
+    .logo-outer {padding: 50px 0;}
+    .menu{padding:30px 0;}
+    .country ul{padding-left: 10px;}
+    .country ul li{padding: 0 0 10px;}
+    .country ul li span{padding:0 20px;}
+}
+
+@media only screen and (max-width: 479px) {
+    .menu ul li {display: inline-block; padding: 0 30px 0 25px; font-size: 14px; line-height: 16px;}
+}
