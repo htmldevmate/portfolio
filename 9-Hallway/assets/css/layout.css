@@ -1,0 +1,46 @@
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.header {margin: 50px 0 40px;}
+    .logo{width:220px;top: -31px;left: -5px;}
+    .menu ul li {font-size: 10px; margin-left: 5px;}
+    .footer-menu ul li {font-size: 10px; margin-right: 5px;}
+    .copyright{font-size:9px;padding-top:1px;}
+    .contact-block span{display: block;}
+    .contact-block a{display: block;margin:0 0 10px;}
+    .contact-block br{display: block;}
+    .captcha-block label{font-size:14px;letter-spacing: -.5px;}
+    .captcha-block input[type="text"]{height:42px;}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    .header {margin: 50px 0 40px;}
+    .menu{display: none;}
+    .menuicon{display: block;}
+    .menu ul {padding: 40px 0 0;}
+    .menu ul li{display: block;margin:20px 10px;}
+    .logo{width:220px;top: -31px;left: -5px;}
+    .footer-menu{display: block;}
+    .footer-menu ul{text-align: center;}
+    .footer-menu ul li{display: block; margin:0 0 10px;}
+    .copyright{text-align: center; padding:10px 0 0;}
+    .grid-left {width: 100%;}
+    .grid-right {width: 100%;padding:20px 0 0;}
+    .conent-area{padding: 0;}
+    .conent-area p{text-align: justify;}
+    .logos ul{-webkit-justify-content: center; -ms-flex-pack: center;  justify-content: center;}
+    .logos ul li{padding:0 5px;}
+    .grid-right .contact-block {padding: 20px 0 0;}
+    .portfolio ul li{width:50%;}
+    .fb-widget {float: none;}
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    .captcha-image {width: 100%;}
+    .captcha-block {width: 100%; padding:20px 0 0;}
+    .contact-row .send-btn {margin: 10px 0 0;}
+    .contact-form {padding: 0 0 40px;}
+}
+
