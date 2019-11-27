@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91.174" height="122.411" viewBox="0 0 91.174 122.411">
+  <g id="Group_252" data-name="Group 252" transform="translate(-392.701 -157.17)">
+    <text id="ERKEND_LEERBEDRIJF" data-name="ERKEND
+LEERBEDRIJF" transform="translate(408.367 191.731)" fill="#2b3a49" font-size="8" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">ERKEND</tspan><tspan x="0" y="7.627">LEERBEDRIJF</tspan></text>
+    <text id="CERTIFIED" transform="translate(408.367 215.734)" fill="#5a7ca0" font-size="9.806" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">CERTIFIED</tspan></text>
+    <path id="Path_336" data-name="Path 336" d="M460.373,157.987v22.685h22.685Z" fill="none" stroke="#5a7ca0" stroke-linejoin="round" stroke-width="1.634"/>
+    <path id="Path_337" data-name="Path 337" d="M429.891,265.8H393.518V157.987h66.854l22.685,22.685V265.8H446.685" fill="none" stroke="#5a7ca0" stroke-linejoin="round" stroke-width="1.634"/>
+    <g id="Group_251" data-name="Group 251">
+      <path id="Path_338" data-name="Path 338" d="M429.891,255.826v20.95l7.981-7.981,8.812,8.812V255.161" fill="none" stroke="#2b3a49" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.634"/>
+      <g id="Group_250" data-name="Group 250">
+        <path id="Path_339" data-name="Path 339" d="M438.288,227.39h0a15.214,15.214,0,0,0-3.782.492v20.179h-7.565V232.476a15.177,15.177,0,0,0-3.906,10.168h0A15.253,15.253,0,0,0,438.288,257.9h0a15.361,15.361,0,0,0,2.627-.241l-5.722-9.6L442.981,235h7.565l-7.788,13.06,4.234,7.1a15.228,15.228,0,0,0,6.55-12.517h0A15.254,15.254,0,0,0,438.288,227.39Z" fill="none" stroke="#2b3a49" stroke-miterlimit="10" stroke-width="1.634"/>
+        <path id="Path_340" data-name="Path 340" d="M434.506,248.061V227.882a15.221,15.221,0,0,0-7.565,4.594v15.585Z" fill="none" stroke="#2b3a49" stroke-miterlimit="10" stroke-width="1.634"/>
+        <path id="Path_341" data-name="Path 341" d="M450.546,235h-7.565l-7.788,13.06,5.722,9.6a15.17,15.17,0,0,0,6.077-2.5l-4.234-7.1Z" fill="none" stroke="#2b3a49" stroke-miterlimit="10" stroke-width="1.634"/>
+      </g>
+    </g>
+  </g>
+</svg>

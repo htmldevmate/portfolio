@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.799" height="44.798" viewBox="0 0 44.799 44.798">
+  <g id="Group_120" data-name="Group 120" transform="translate(-68 21)">
+    <g id="Group_195" data-name="Group 195" transform="translate(68 -21.001)">
+      <g id="Group_192" data-name="Group 192">
+        <rect id="Rectangle_195" data-name="Rectangle 195" width="4.85" height="8.6" transform="translate(20.88 17.831) rotate(-45)" stroke-width="2" stroke="#5a7ca1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+        <g id="Group_191" data-name="Group 191">
+          <rect id="Rectangle_196" data-name="Rectangle 196" width="15.45" height="2.38" transform="translate(26.503 16.604) rotate(-45)" stroke-width="2" stroke="#5a7ca1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+          <path id="Path_195" data-name="Path 195" d="M43.76,2.71,42.08,1.03,38.13,4.01l-.7,1.67,1.68,1.68,1.67-.7Z" fill="none" stroke="#5a7ca1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+        <path id="Path_196" data-name="Path 196" d="M17.83,20.88l6.08,6.08L8.37,42.51a4.3,4.3,0,0,1-6.08,0,4.392,4.392,0,0,1,.26-6.34Z" fill="none" stroke="#5a7ca1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_50" data-name="Line 50" x1="12.82" y2="12.82" transform="translate(6.74 27.25)" fill="none" stroke="#5a7ca1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <g id="Group_194" data-name="Group 194">
+        <g id="Group_193" data-name="Group 193">
+          <path id="Path_197" data-name="Path 197" d="M38.11,31.36a6.211,6.211,0,0,0-2.25.21,1.686,1.686,0,0,1-1.66-.41L14.34,11.3a1.726,1.726,0,0,1-.42-1.74A6.6,6.6,0,0,0,7.94,1.01a6.888,6.888,0,0,0-1.58.11L9.88,4.64,8.76,8.82,4.57,9.94,1.1,6.47a6.606,6.606,0,0,0,8.46,7.46,1.716,1.716,0,0,1,1.74.42L31.16,34.2a1.686,1.686,0,0,1,.41,1.66,6.233,6.233,0,1,0,6.54-4.5Zm1.91,8.66-3.35.9-2.45-2.45.9-3.35,3.35-.9,2.45,2.45Z" fill="none" stroke="#5a7ca1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

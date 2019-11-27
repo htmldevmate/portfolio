@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91.174" height="122.411" viewBox="0 0 91.174 122.411">
+  <g id="Group_249" data-name="Group 249" transform="translate(-194.818 -157.17)">
+    <text id="DIN_2303" data-name="DIN
+2303" transform="translate(210.484 191.731)" fill="#2b3a49" font-size="14.164" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">DIN</tspan><tspan x="0" y="13.074">2303</tspan></text>
+    <text id="CERTIFIED" transform="translate(210.484 215.734)" fill="#5a7ca0" font-size="9.806" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">CERTIFIED</tspan></text>
+    <path id="Path_330" data-name="Path 330" d="M262.49,157.987v22.685h22.685Z" fill="none" stroke="#5a7ca0" stroke-linejoin="round" stroke-width="1.634"/>
+    <path id="Path_331" data-name="Path 331" d="M232.009,265.8H195.636V157.987H262.49l22.685,22.685V265.8H248.8" fill="none" stroke="#5a7ca0" stroke-linejoin="round" stroke-width="1.634"/>
+    <g id="Group_248" data-name="Group 248">
+      <path id="Path_332" data-name="Path 332" d="M232.009,255.826v20.95l7.981-7.981,8.812,8.812V255.161" fill="none" stroke="#2b3a49" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.634"/>
+      <g id="Group_247" data-name="Group 247">
+        <path id="Path_333" data-name="Path 333" d="M240.406,227.39h0a15.22,15.22,0,0,0-3.782.492v20.179h-7.565V232.476a15.178,15.178,0,0,0-3.906,10.168h0A15.253,15.253,0,0,0,240.4,257.9h0a15.358,15.358,0,0,0,2.626-.241l-5.722-9.6L245.1,235h7.565l-7.789,13.06,4.235,7.1a15.229,15.229,0,0,0,6.549-12.517h0A15.253,15.253,0,0,0,240.406,227.39Z" fill="none" stroke="#2b3a49" stroke-miterlimit="10" stroke-width="1.634"/>
+        <path id="Path_334" data-name="Path 334" d="M236.623,248.061V227.882a15.221,15.221,0,0,0-7.565,4.594v15.585Z" fill="none" stroke="#2b3a49" stroke-miterlimit="10" stroke-width="1.634"/>
+        <path id="Path_335" data-name="Path 335" d="M252.664,235H245.1l-7.789,13.06,5.722,9.6a15.168,15.168,0,0,0,6.078-2.5l-4.235-7.1Z" fill="none" stroke="#2b3a49" stroke-miterlimit="10" stroke-width="1.634"/>
+      </g>
+    </g>
+  </g>
+</svg>

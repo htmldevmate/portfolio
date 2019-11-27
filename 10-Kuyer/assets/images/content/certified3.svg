@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91.174" height="122.411" viewBox="0 0 91.174 122.411">
+  <g id="Group_255" data-name="Group 255" transform="translate(-590.584 -157.17)">
+    <text id="EN_15085" data-name="EN
+15085" transform="translate(606.249 191.731)" fill="#2b3a49" font-size="14.164" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">EN</tspan><tspan x="0" y="13.074">15085</tspan></text>
+    <text id="CERTIFIED" transform="translate(606.25 215.734)" fill="#5a7ca0" font-size="9.806" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">CERTIFIED</tspan></text>
+    <path id="Path_342" data-name="Path 342" d="M658.255,157.987v22.685H680.94Z" fill="none" stroke="#5a7ca0" stroke-linejoin="round" stroke-width="1.634"/>
+    <path id="Path_343" data-name="Path 343" d="M627.774,265.8H591.4V157.987h66.854l22.685,22.685V265.8H644.567" fill="none" stroke="#5a7ca0" stroke-linejoin="round" stroke-width="1.634"/>
+    <g id="Group_254" data-name="Group 254">
+      <path id="Path_344" data-name="Path 344" d="M627.774,255.826v20.95l7.981-7.981,8.812,8.812V255.161" fill="none" stroke="#2b3a49" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.634"/>
+      <g id="Group_253" data-name="Group 253">
+        <path id="Path_345" data-name="Path 345" d="M636.171,227.39h0a15.221,15.221,0,0,0-3.783.492v20.179h-7.565V232.476a15.177,15.177,0,0,0-3.906,10.168h0A15.253,15.253,0,0,0,636.171,257.9h0a15.369,15.369,0,0,0,2.627-.241l-5.723-9.6L640.864,235h7.565l-7.789,13.06,4.235,7.1a15.229,15.229,0,0,0,6.549-12.517h0A15.253,15.253,0,0,0,636.171,227.39Z" fill="none" stroke="#2b3a49" stroke-miterlimit="10" stroke-width="1.634"/>
+        <path id="Path_346" data-name="Path 346" d="M632.388,248.061V227.882a15.222,15.222,0,0,0-7.565,4.594v15.585Z" fill="none" stroke="#2b3a49" stroke-miterlimit="10" stroke-width="1.634"/>
+        <path id="Path_347" data-name="Path 347" d="M648.429,235h-7.565l-7.789,13.06,5.723,9.6a15.17,15.17,0,0,0,6.077-2.5l-4.235-7.1Z" fill="none" stroke="#2b3a49" stroke-miterlimit="10" stroke-width="1.634"/>
+      </g>
+    </g>
+  </g>
+</svg>
