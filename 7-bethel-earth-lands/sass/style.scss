@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Righteous&display=swap');
+// font-family: 'Righteous', cursive;
+// font-family: 'Josefin Sans', sans-serif;
+
+// Variables
+$color1: #fcb026;
+$color2: #999999;
+$color3: #333333;
+$color4: #262626;
+$transition: all 0.4s ease 0s;
+$box-shadow: 0 2px 20px 0 rgba(0,
+    0,
+    0,
+    0.10);
+
+
+// Typography
+
+body {
+    font-family: 'Righteous', cursive;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    color: $color4;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+
+    @media (max-width:768px) {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 70px;
+    text-align:center;
+
+    @media(max-width:768px){
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+h6 {
+    color: $color1;
+}
+
+a {
+    transition: $transition;
+    color: $color1;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: $color2;
+    }
+}
+
+textarea,
+input {
+    width: 100%;
+    min-height: 30px;
+    padding: 10px 20px;
+    border: 1px solid $color2;
+    margin: 0 0 15px;
+}
+
+// Common styles
+.imgLiquid {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-gutter {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+section {
+    padding: 40px 0;
+    @media(max-width:768px){
+        padding: 20px 0;
+
+    }
+}
+
+.btn {
+    border-radius: 0;
+    background: $color1;
+    border: 1px solid $color1;
+    color: $color4;
+    transition: $transition;
+    padding: 10px 20px;
+
+    &:hover,
+    &:focus {
+        background: $color4;
+        border-color: $color4;
+        color: $color1;
+    }
+}
+
+// Header styles
+.header {
+    .header-top {
+        background: $color4;
+        padding: 10px 0;
+
+        .phone {
+            i {
+                color: $color1;
+                margin: 0 10px 0 0;
+            }
+        }
+    }
+
+    .header-bottom {
+        background: $color1;
+        padding: 15px 0;
+
+        .navbar {
+            background-color: $color1 !important;
+
+            ul {
+                li {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.logo {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: normal;
+
+    small {
+        display: block;
+    }
+}
+
+// Banner styles
+.banner {
+
+    .slider-item {
+        position: relative;
+        height: 500px;
+
+        &:before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: rgba(0,
+                    0,
+                    0,
+                    0.5)
+        }
+
+        .slider-text {
+            position: relative;
+            z-index: 9;
+            text-align: center;
+            color: $color1;
+            padding: 200px 0 0;
+
+            h1 {
+                color: #ffffff;
+            }
+        }
+    }
+
+}
+
+.homepage{
+    .banner{
+        .slider-item{
+            .slider-text{
+                h1{
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.innerpage {
+    .banner {
+        .slider-item {
+            height: 300px;
+
+            .slider-text {
+                padding: 100px 0 0;
+            }
+        }
+    }
+}
+
+// Contact page styles
+.map {
+    @media (max-width:768px) {
+        margin: 0 0 20px;
+    }
+}
+
+// Feedback page styles
+.star-rating {
+    span {
+        font-size: 22px;
+
+        &.checked {
+            color: $color1;
+        }
+    }
+}
+
+// About page styles
+.content-img {
+    height: 300px;
+}
+
+// Gallery page styles
+.gallery-section {
+    .nav-tabs {
+        justify-content: center;
+        margin: 0 0 40px 0;
+
+        .nav-item {
+            .nav-link {
+                font-size: 22px;
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .grid-item {
+        width: 24%;
+        margin: 0 0 1%;
+
+        @media(max-width:768px) {
+            width: 100%;
+        }
+
+        img {
+            height: 200px;
+        }
+    }
+    &.large{
+        .grid-item{
+            width: 49%;
+            @media(max-width:768px) {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Service section styles
+.service-block{
+    @media(max-width:768px){
+        margin:0 0 20px;
+    }
+    .service-img{
+        height: 250px;
+
+    }
+    h3{
+        margin: 10px 0 0;
+    }
+}
+
+// Footer styles
+.footer {
+    background: $color4;
+    padding: 20px 0;
+    color: $color1;
+    text-align: center;
+}
