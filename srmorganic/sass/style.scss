@@ -46,17 +46,18 @@ h2 {
     line-height: 70px;
     position: relative;
     margin: 0 0 40px;
+    text-align: center;
 
-    &:before{
+    &:before {
         content: '';
         width: 150px;
         height: 5px;
         background: $color1;
         position: absolute;
         left: 0;
-        // right:0;
+        right:0;
         bottom: 0;
-        // margin: 0 auto;
+        margin: 0 auto;
     }
 
     @media(max-width:768px) {
@@ -131,6 +132,7 @@ section {
 .header {
     background: #fff;
     padding: 10px 0;
+    box-shadow: $box-shadow;
 
     .navbar {
         @media(max-width:768px) {
@@ -160,6 +162,7 @@ section {
     .logo {
         img {
             max-width: 100px;
+
             @media(max-width:768px) {
                 max-width: 80px;
             }
@@ -168,9 +171,9 @@ section {
 }
 
 // Banner style
-.banner{
-    .banner-slider{
-        .slider-item{
+.banner {
+    .banner-slider {
+        .slider-item {
             height: 500px;
 
             @media(max-width:768px) {
@@ -180,12 +183,13 @@ section {
     }
 }
 
-.innerpage{
-    .banner{
-        .slider-item{
+.innerpage {
+    .banner {
+        .slider-item {
             height: 300px;
             padding: 120px 0 0;
-            .slider-text{
+
+            .slider-text {
                 text-align: center;
                 color: #fff;
             }
@@ -194,22 +198,52 @@ section {
 }
 
 // Products section styles
-.products-section{
-    .product-block{
+.products-section {
+    .product-block {
         text-align: center;
-        .product-img{
+        margin: 0 0 20px;
+
+        &:hover {
+            .product-img {
+                opacity: 0.75;
+            }
+        }
+
+        .product-img {
             min-height: 300px;
+            margin: 0 0 5px;
+            transition: $transition;
+        }
+    }
+}
+
+// Product single section styles
+.product-single-section{
+    .product-single-img{
+        margin: 0 0 5px;
+    }
+    .product-single-content{
+        h2{
+            text-align: left;
             margin: 0 0 20px;
+            &:before{
+                display: none;
+            }
+        }
+        .price{
+            font-size: 24px;
+            line-height: 34px;
         }
     }
 }
 
 // Footer styles
-.footer{
+.footer {
     background: $color1;
     color: #fff;
-    padding: 20px 0;
+    padding: 60px 0;
     text-align: center;
+
     @media(max-width:768px) {
         font-size: 14px;
         line-height: 24px;
@@ -217,16 +251,17 @@ section {
 }
 
 // WhatsApp 
-.whatsapp{
+.whatsapp {
     position: fixed;
     bottom: 10px;
     right: 10px;
-   
-    img{
-        width:80px;
+
+    img {
+        width: 80px;
         height: 80px;
+
         @media(max-width:768px) {
-            width:60px;
+            width: 60px;
             height: 60px;
         }
     }
