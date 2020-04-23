@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Baloo+Paaji+2:700&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Baloo Paaji 2', cursive;
+  color: #262626;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 80px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 70px;
+  position: relative;
+  margin: 0 0 40px;
+}
+
+h2:before {
+  content: '';
+  width: 150px;
+  height: 5px;
+  background: #20603C;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+a {
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  color: #20603C;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #262626;
+}
+
+textarea,
+input {
+  width: 100%;
+  min-height: 30px;
+  padding: 10px 20px;
+  border: 1px solid #262626;
+  margin: 0 0 15px;
+  font-size: 14px;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.imgLiquid {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.no-gutter {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+section {
+  padding: 60px 0;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
+}
+
+.btn {
+  border-radius: 0;
+  background: #20603C;
+  border: 1px solid #20603C;
+  color: #fff;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  padding: 10px 20px;
+}
+
+.btn:hover, .btn:focus {
+  background: #262626;
+  border-color: #262626;
+}
+
+.header {
+  background: #fff;
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .header .navbar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+.header .navbar .navbar-toggler {
+  background-color: #20603C;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: 'Baloo Paaji 2', cursive;
+  color: #262626;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #20603C;
+}
+
+.header .logo img {
+  max-width: 100px;
+}
+
+@media (max-width: 768px) {
+  .header .logo img {
+    max-width: 80px;
+  }
+}
+
+.banner .banner-slider .slider-item {
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .banner .banner-slider .slider-item {
+    height: 300px;
+  }
+}
+
+.innerpage .banner .slider-item {
+  height: 300px;
+  padding: 120px 0 0;
+}
+
+.innerpage .banner .slider-item .slider-text {
+  text-align: center;
+  color: #fff;
+}
+
+.products-section .product-block {
+  text-align: center;
+}
+
+.products-section .product-block .product-img {
+  min-height: 300px;
+  margin: 0 0 20px;
+}
+
+.footer {
+  background: #20603C;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.whatsapp img {
+  width: 80px;
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .whatsapp img {
+    width: 60px;
+    height: 60px;
+  }
+}
