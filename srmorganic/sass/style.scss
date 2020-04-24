@@ -55,7 +55,7 @@ h2 {
         background: $color1;
         position: absolute;
         left: 0;
-        right:0;
+        right: 0;
         bottom: 0;
         margin: 0 auto;
     }
@@ -172,6 +172,7 @@ section {
 
 // Banner style
 .banner {
+    position: relative;
     .banner-slider {
         .slider-item {
             height: 500px;
@@ -185,6 +186,18 @@ section {
 
 .innerpage {
     .banner {
+        &:before{
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            background: rgba(0,
+                0,
+                0,
+                0.25);
+        }
         .slider-item {
             height: 300px;
             padding: 120px 0 0;
@@ -192,6 +205,8 @@ section {
             .slider-text {
                 text-align: center;
                 color: #fff;
+                z-index: 999;
+                position: relative;
             }
         }
     }
@@ -218,19 +233,22 @@ section {
 }
 
 // Product single section styles
-.product-single-section{
-    .product-single-img{
+.product-single-section {
+    .product-single-img {
         margin: 0 0 5px;
     }
-    .product-single-content{
-        h2{
+
+    .product-single-content {
+        h2 {
             text-align: left;
             margin: 0 0 20px;
-            &:before{
+
+            &:before {
                 display: none;
             }
         }
-        .price{
+
+        .price {
             font-size: 24px;
             line-height: 34px;
         }
@@ -241,10 +259,60 @@ section {
 .footer {
     background: $color1;
     color: #fff;
-    padding: 60px 0;
     text-align: center;
 
-    @media(max-width:768px) {
+    .footer-top {
+        padding: 40px 0;
+
+        @media(max-width:768px) {
+            padding: 20px 0;
+        }
+    }
+
+    .footer-bottom {
+        padding: 20px 0;
+        background: #022915;
+
+        @media(max-width:768px) {
+            padding: 10px 0;
+        }
+    }
+
+    .footer-block {
+        h5 {
+            color: #fff;
+        }
+
+        li {
+            display: block;
+
+            a {
+                color: #fff;
+
+                &:hover {
+                    opacity: 0.75;
+                }
+
+                i {
+                    font-size: 24px;
+                    line-height: 34px;
+                }
+            }
+        }
+
+        &.social {
+            @media(max-width:768px) {
+                padding: 0 0 15px;
+            }
+
+            li {
+                display: inline-block;
+                margin: 0 5px;
+            }
+        }
+    }
+
+    .copyright {
         font-size: 14px;
         line-height: 24px;
     }
@@ -266,3 +334,4 @@ section {
         }
     }
 }
+// All styles ends here
